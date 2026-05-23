@@ -7,7 +7,7 @@
 .container{
     height: 100%;
     width: 100%;
-    background-image: url(space image.jpg);
+    background-image: url(images/images.jpg);
     background-size: cover;
 }
 nav{

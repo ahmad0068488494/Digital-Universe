@@ -7,3 +7,132 @@ html, body{
     height: 100%;
     width: 100%;
 }
+body{
+    background-image: url( https://images.unsplash.com/photo-1701690775149-1eb93e0e3d68?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D );
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    gap: 70px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+    color:  white;
+    margin-right: 30%;
+}
+.logo{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 15px 10px 10px;
+    padding: 0px 10px;
+}
+h1{
+    color: aliceblue;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 75px; 
+}
+.btn{
+    display: flex;
+    align-items: flex-start;
+    display: fixed;
+    margin-left: 20px;
+    height: 10%;
+    width: 100%;
+}
+.btn1, .btn2{
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+.btn1{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: rgb(224, 216, 216);
+    border: 1px solid white;
+}
+.btn1:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+}
+.btn2{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: rgb(224, 216, 216);
+    border: 1px solid white;
+}
+.btn2:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+}
+h3{
+    color: white;
+    margin-top: 50px;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.trusted-section{
+    color: white;
+    padding: 20px;
+}
+
+.trusted-section p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.clients{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.avatars{
+    display: flex;
+}
+
+.avatars img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+
+.avatars img:first-child{
+    margin-left: 50px;
+}
+h2{
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}

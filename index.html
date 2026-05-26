@@ -1,40 +1,233 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation-Bar</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link
-  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-  rel="stylesheet"
-/>
-</head>
-<body>
-    <header>
-    <nav>
-        <div class="nav1"> 
-            <h2>Digital Universe</h2>
-        </div>
-        <div class="nav2">
-        <h4>About</h4>
-        <h4>Services</h4>
-        <h4>Courses</h4>
-        <h4>Contact-Us</h4>
-        <h5>
-            <i class="ri-menu-line"></i>
-        </h5>
-        </div>
-    </nav>
-</header>
-<main class="main">
-    <div class="content">
-        
-        <h1>Welcome to 
-        Digital Universe.</h1>
-        <p>"Explore the infinite wonders of space through the Digital Universe. Discover galaxies, planets, stars, and cosmic mysteries in an immersive digital experience designed to inspire curiosity and innovation."</p>
+ </head>
+ <body>
+    <div class="starfield"></div>
+<div class="nebula"></div>
+
+<div class="content">
+
+  <!-- NAV -->
+  <nav>
+    <div class="logo">DIGITAL<span>UNIVERSE</span></div>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+    </ul>
+    <button class="nav-cta">Launch App</button>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-badge">Live Signal Active</div>
+    <h1>
+      <span class="line1">EXPLORE THE</span>
+      <span class="line2">DIGITAL UNIVERSE</span>
+    </h1>
+    <p class="hero-sub">
+      A next-generation platform to navigate, build, and interact within
+      the infinite expanse of interconnected digital dimensions.
+    </p>
+    <div class="hero-actions">
+      <a href="#features" class="btn-primary">Begin Exploration</a>
+      <a href="#roadmap" class="btn-secondary">View Roadmap</a>
     </div>
-    
-</main>
-</body>
-</html> 
+
+    <div class="orbit-wrap">
+      <div class="planet"></div>
+      <div class="ring"><div class="dot"></div></div>
+      <div class="ring"><div class="dot"></div></div>
+      <div class="ring"><div class="dot"></div></div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats reveal">
+    <div class="stat">
+      <span class="stat-num">4.2B</span>
+      <span class="stat-label">Data Nodes Mapped</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">99.98%</span>
+      <span class="stat-label">Uptime Guarantee</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">180+</span>
+      <span class="stat-label">Dimensions Indexed</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">0.3ms</span>
+      <span class="stat-label">Latency</span>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <section id="features">
+    <div class="reveal">
+      <p class="section-label">Core Systems</p>
+      <h2 class="section-title">Technology Built<br>for the Void</h2>
+      <p class="section-sub">Every layer of NEXVOID is engineered for scale, speed, and the unknown frontiers of the digital cosmos.</p>
+    </div>
+    <div class="features-grid reveal">
+      <div class="feat-card">
+        <div class="feat-icon">⬡</div>
+        <p class="feat-title">Neural Mesh</p>
+        <p class="feat-desc">Adaptive AI fabric that weaves through data streams in real time, learning and reconfiguring topology on the fly.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">◈</div>
+        <p class="feat-title">Quantum Indexer</p>
+        <p class="feat-desc">Superposition-inspired search across billions of nodes. Results materialize before you finish typing.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">⊛</div>
+        <p class="feat-title">Dark Matter Cache</p>
+        <p class="feat-desc">Invisible but omnipresent — a distributed cache layer that eliminates latency across galactic distances.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">⋈</div>
+        <p class="feat-title">Void Gateway</p>
+        <p class="feat-desc">Secure tunnels into restricted sectors of the network. End-to-end encrypted with post-quantum ciphers.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">⟁</div>
+        <p class="feat-title">Stellar API</p>
+        <p class="feat-desc">RESTful and WebSocket APIs that scale from a single request to 10 million concurrent connections.</p>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">⌬</div>
+        <p class="feat-title">Pulse Monitor</p>
+        <p class="feat-desc">Real-time telemetry across every dimension. Anomalies detected in nanoseconds, alerts dispatched instantly.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ROADMAP -->
+  <section id="roadmap">
+    <div class="reveal">
+      <p class="section-label">Mission Log</p>
+      <h2 class="section-title">The Journey<br>Through Space-Time</h2>
+      <p class="section-sub">Our trajectory across the digital cosmos — past coordinates and future waypoints.</p>
+    </div>
+    <div class="timeline reveal">
+      <div class="tl-item">
+        <div class="tl-dot">01</div>
+        <div class="tl-content">
+          <h3>Genesis Protocol — Launched</h3>
+          <p>Core infrastructure deployed. First 100M nodes mapped. Void Gateway activated across 12 regions.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot">02</div>
+        <div class="tl-content">
+          <h3>Neural Mesh v2 — Q1 2026</h3>
+          <p>Second generation adaptive AI fabric with federated learning and self-healing topology algorithms.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot">03</div>
+        <div class="tl-content">
+          <h3>Quantum Indexer Beta — Q3 2026</h3>
+          <p>Public access to the quantum search layer. Developer SDK release. 10B node target milestone.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot">04</div>
+        <div class="tl-content">
+          <h3>Multiverse Expansion — 2027</h3>
+          <p>Cross-chain reality bridges. Parallel universe instance support. The known digital cosmos — fully charted.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PRICING -->
+  <section id="pricing">
+    <div class="reveal" style="text-align:center; margin: 0 auto;">
+      <p class="section-label">Access Tiers</p>
+      <h2 class="section-title">Choose Your Sector</h2>
+      <p class="section-sub" style="margin: 0 auto;">From lone explorers to multi-system civilizations — a tier calibrated for every mission scale.</p>
+    </div>
+    <div class="pricing-grid reveal">
+      <div class="price-card">
+        <p class="price-plan">Scout</p>
+        <div class="price-amount"><span>$</span>0</div>
+        <p class="price-period">per month, forever</p>
+        <ul class="price-features">
+          <li class="active">1M nodes / month</li>
+          <li class="active">3 Void Gateways</li>
+          <li class="active">Community support</li>
+          <li>Neural Mesh access</li>
+          <li>Quantum Indexer</li>
+        </ul>
+        <a href="#" class="btn-secondary" style="width:100%; text-align:center; display:block;">Begin Free</a>
+      </div>
+      <div class="price-card featured">
+        <div class="price-badge">Most Popular</div>
+        <p class="price-plan">Navigator</p>
+        <div class="price-amount"><span>$</span>49</div>
+        <p class="price-period">per month, billed annually</p>
+        <ul class="price-features">
+          <li class="active">50M nodes / month</li>
+          <li class="active">Unlimited Gateways</li>
+          <li class="active">Priority support</li>
+          <li class="active">Neural Mesh access</li>
+          <li>Quantum Indexer</li>
+        </ul>
+        <a href="#" class="btn-primary" style="width:100%; text-align:center; display:block;">Go Navigator</a>
+      </div>
+      <div class="price-card">
+        <p class="price-plan">Overlord</p>
+        <div class="price-amount"><span>$</span>299</div>
+        <p class="price-period">per month, billed annually</p>
+        <ul class="price-features">
+          <li class="active">Unlimited nodes</li>
+          <li class="active">Unlimited Gateways</li>
+          <li class="active">Dedicated support</li>
+          <li class="active">Neural Mesh access</li>
+          <li class="active">Quantum Indexer</li>
+        </ul>
+        <a href="#" class="btn-secondary" style="width:100%; text-align:center; display:block;">Contact Sales</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <div class="cta-band reveal">
+    <h2>Ready to Enter the Void?</h2>
+    <p>Join 200,000+ explorers already traversing the digital universe.</p>
+    <a href="#" class="btn-primary">Launch NEXVOID Free</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">NEXVOID</div>
+    <ul class="footer-links">
+      <li><a href="#">Docs</a></li>
+      <li><a href="#">Status</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+    </ul>
+    <p class="footer-copy">© 2026 NEXVOID. All coordinates reserved.</p>
+  </footer>
+
+</div>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+ </body>
+ </html>
